@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1000000"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="13"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dataStorageView"
+    android:visibility="gone"
+    />
+
+        <Button
+            android:id="@+id/add_session_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/cherry_cream_soda"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="Add New Session +" />
+
+
+        <RelativeLayout
+            android:id="@+id/new_session_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="3dp"
+            android:background="@drawable/add_new_session_background"
+            android:orientation="horizontal"
+            android:visibility="gone"
+
+            >
+
+
+            <TextView
+                android:id="@+id/date_edittext"
+                android:layout_width="80dp"
+                android:layout_centerInParent="true"
+                android:layout_height="25dp"
+                android:layout_toRightOf="@+id/btn_save_entry"
+android:layout_marginEnd="10dp"
+                android:gravity="center"
+              android:background="@drawable/setter_button_background"
+                android:hint="Set Date"
+                android:textColorHint="#F4F4F4"
+                android:textSize="10sp"
+                android:textColor="#FFF"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/time_edittext"
+                android:layout_width="80dp"
+                android:gravity="center"
+                android:layout_height="25dp"
+                android:layout_marginEnd="10dp"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/date_edittext"
+                android:hint="Set Time"
+                android:inputType="number"
+                android:background="@drawable/setter_button_background"
+                android:textColor="#FFF"
+                android:textColorHint="#F4F4F4"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+
+
+
+            <EditText
+                android:id="@+id/distance_edittext"
+                android:layout_width="80dp"
+                android:gravity="center"
+                android:layout_marginEnd="10dp"
+                android:layout_toRightOf="@+id/time_edittext"
+                android:hint="Set Distance"
+                android:layout_height="25dp"
+                android:background="@drawable/setter_button_background"
+                android:textColor="#FFF"
+                android:inputType="numberDecimal"
+                android:textColorHint="#F4F4F4"
+                android:textSize="10sp"
+                android:layout_centerInParent="true"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btn_save_entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:text="Save" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/admin_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+
+            android:layoutDirection="rtl" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

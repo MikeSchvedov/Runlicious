@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "294365379330",
+    "firebase_url": "https://runlicious-d4798.firebaseio.com",
+    "project_id": "runlicious-d4798",
+    "storage_bucket": "runlicious-d4798.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294365379330:android:aac316c37577d1df08e01b",
+        "android_client_info": {
+          "package_name": "com.hypnagogix.runlicious"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294365379330-oggfmcrqkkln2bui6i3k3e1isu72eg2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcFTaANKgCzn1bzbyBTOxEM1MCChKAhhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294365379330-oggfmcrqkkln2bui6i3k3e1isu72eg2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

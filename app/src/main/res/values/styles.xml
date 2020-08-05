@@ -1,0 +1,55 @@
+<resources>
+
+
+
+    <style name="AlertDialog" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">#B378FF</item>
+        <item name="android:textColorPrimary">#B378FF</item>
+        <item name="android:colorAccent">#B378FF</item>
+        <item name="android:colorBackground">#E7000000</item>
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyDarkToolbarStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">#000000</item>
+        <item name="android:textColor">#E1BCEE</item>
+    </style>
+
+
+
+
+
+
+    <style name="AppThemeDialog" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+
+
+
+    </style>
+</resources>

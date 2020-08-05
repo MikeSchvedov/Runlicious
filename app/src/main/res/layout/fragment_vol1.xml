@@ -1,0 +1,426 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/session_item_background"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/total_km_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/happy_monkey"
+                android:text="Total Distance"
+                android:textColor="#F78B36C5"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/total_km_data_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/total_km_title"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/audiowide"
+                android:text="no data"
+                android:textColor="#FFF"
+                android:textSize="36sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/total_km_data_textview"
+                android:layout_centerInParent="true"
+                android:padding="1dp"
+                android:textColor="#B1FFFFFF"
+                android:fontFamily="@font/happy_monkey"
+                android:text="Kilometers"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/session_item_background"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/total_duration_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/happy_monkey"
+                android:gravity="center_horizontal"
+                android:text="Total Duration"
+                android:textColor="#F78B36C5"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/total_duration_data_textview"
+                android:textColor="#FFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/total_duration_title"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/audiowide"
+                android:text="no data"
+                android:textSize="36sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/total_duration_data_textview"
+                android:layout_centerInParent="true"
+                android:padding="1dp"
+                android:text="Hours"
+                android:fontFamily="@font/happy_monkey"
+                android:textColor="#B1FFFFFF"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/session_item_background"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hours_per_practice_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/happy_monkey"
+                android:gravity="center_horizontal"
+                android:text="Total Training"
+                android:textColor="#F78B36C5"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/total_training_sessions_data_textview"
+                android:textColor="#FFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hours_per_practice_title"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/audiowide"
+                android:text="no data"
+                android:textSize="36sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/total_training_sessions_data_textview"
+                android:layout_centerInParent="true"
+                android:padding="1dp"
+                android:textColor="#B1FFFFFF"
+                android:fontFamily="@font/happy_monkey"
+                android:text="Runs"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/session_item_background"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/days_practice_titlestart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/happy_monkey"
+                android:text="Total Calories"
+                android:textColor="#F78B36C5"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/total_calories_data_textview"
+                android:textColor="#FFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/days_practice_titlestart"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="43dp"
+                android:text="no data"
+                android:fontFamily="@font/audiowide"
+                android:textSize="30sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/total_calories_data_textview"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:padding="1dp"
+                android:text="Kcal"
+                android:fontFamily="@font/happy_monkey"
+                android:textColor="#B1FFFFFF"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/session_item_background"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/session_item_background"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/longest_run_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/happy_monkey"
+                android:text="Longest Run"
+                android:textColor="#F78B36C5"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/longest_run_data_textview"
+                android:textColor="#FFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/longest_run_title"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/audiowide"
+                android:layout_marginTop="30dp"
+                android:text="no data"
+                android:textSize="34sp" />
+
+
+            <TextView
+                android:id="@+id/km_longest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/longest_run_data_textview"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:padding="1dp"
+                android:text="Kilometers"
+                android:fontFamily="@font/happy_monkey"
+                android:textColor="#B1FFFFFF"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/session_item_background"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@font/happy_monkey"
+                    android:text="Best 5K"
+                    android:layout_weight="1"
+                    android:textColor="#F78B36C5"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/best_5_data_textview"
+                    android:textColor="#FFF"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/audiowide"
+
+                    android:text="00:00:00"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+android:layout_marginTop="3dp"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@font/happy_monkey"
+                    android:text="Best 10K"
+                    android:layout_weight="1"
+                    android:textColor="#F78B36C5"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/best_10_data_textview"
+                    android:textColor="#FFF"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/audiowide"
+
+                    android:text="00:00:00"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@font/happy_monkey"
+                    android:text="Best 21.1K"
+                    android:layout_weight="1"
+                    android:textColor="#F78B36C5"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/best_HM_data_textview"
+                    android:textColor="#FFF"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/audiowide"
+
+                    android:text="00:00:00"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@font/happy_monkey"
+                    android:text="Best 42.2K"
+                    android:layout_weight="1"
+                    android:textColor="#F78B36C5"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/best_M_data_textview"
+                    android:textColor="#FFF"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/audiowide"
+                    android:layout_marginBottom="5dp"
+                    android:text="00:00:00"
+                    android:textSize="16sp" />
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

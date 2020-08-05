@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateNewRace">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:padding="30dp"
+        android:text="New Race"
+        android:textSize="30sp" />
+
+
+    <EditText
+        android:id="@+id/edit_text_file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:id="@+id/edit_text_file_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Enter Date" />
+
+    <EditText
+        android:id="@+id/edit_text_file_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Enter Time" />
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/image_view"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="24dp" />
+
+    <Button
+        android:id="@+id/button_choose_image"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:text="CHOOSE IMAGE" />
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:id="@+id/progress_bar"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="match_parent"
+
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:text="Create Race" />
+
+
+</LinearLayout>

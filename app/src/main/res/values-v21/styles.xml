@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:itemBackground">#3C096F</item>
+
+    </style>
+
+
+
+</resources>

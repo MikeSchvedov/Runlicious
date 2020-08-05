@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/running_log_ic"
+            android:title="RUNNING LOG" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/statistics_ic"
+            android:title="STATISTICS" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/calendar_ic"
+
+            android:title="MY RACES" />
+
+    </group>
+</menu>

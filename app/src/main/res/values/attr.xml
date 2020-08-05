@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    ...
+    <array name="funny_colors">
+        <item>#DBFBFBFB</item>
+        <item>#1025DD</item>
+        <item>#5E19B3</item>
+        <item>#74159D</item>
+    </array>
+</resources>

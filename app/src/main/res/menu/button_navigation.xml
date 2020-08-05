@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_vol1_over_all_stats"
+        android:icon="@drawable/life_time"
+        android:color="#794FD9"
+
+        android:title="Over All" />
+
+    <item
+        android:id="@+id/nav_vol2_by_week_stats"
+
+        android:color="#794FD9"
+        android:icon="@drawable/by_week_ic"
+        android:title="By Week" />
+
+    <item
+        android:id="@+id/nav_vol3_by_month_stats"
+        android:icon="@drawable/by_month_ic"
+        android:color="#794FD9"
+
+        android:title="By Month" />
+
+    <item
+        android:id="@+id/nav_vol4_by_year_stats"
+        android:icon="@drawable/by_year_ic"
+        android:color="#794FD9"
+        android:title="By Year" />
+
+</menu>
